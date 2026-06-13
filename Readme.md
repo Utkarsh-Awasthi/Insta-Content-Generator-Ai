@@ -1,4 +1,4 @@
-# 🤖 Instagram Content Agent for UK Budget Hacking
+# 🤖 Instagram Content Agent 
 
 An automated Python system that generates and posts daily financial content to Instagram using:
 - **Anthropic Claude API** for content ideation and caption writing
@@ -10,7 +10,7 @@ Perfect for running a personal finance page like "Your-insta-page" with minimal 
 
 ## ✨ Features
 
-- 💡 **AI-Generated Content**: Fresh post ideas and engaging captions tailored to UK personal finance
+- 💡 **AI-Generated Content**: Fresh post ideas and engaging captions tailored to your niche
 - 🖼️ **Smart Image Sourcing**: Automatic retrieval of relevant finance/budgeting images from Unsplash
 - ⏰ **Daily Automation**: Posts automatically at your specified time each day
 - 📊 **Error Handling**: Comprehensive logging and graceful fallbacks for API failures
@@ -64,14 +64,13 @@ python main.py
 ## 📝 How It Works
 
 1. **Daily at Scheduled Time** (default 10:00 AM UK time):
-   - Claude generates a fresh post idea for UK budget hacking
+   - Claude generates a fresh post idea for your niche
    - Creates an engaging caption with personal finance tips (ISAs, fractional shares, etc.)
-   - Searches Unsplash for relevant UK finance imagery (saving, investing, budgeting)
+   - Searches Unsplash for relevant content for example- finance imagery (saving, investing, budgeting)
    - Posts the image + caption to Instagram via Basic Display API
 
 2. **Content Focus**:
    - Accessible investing for beginners (small amounts, simple apps)
-   - UK-specific financial context (ISA limits, FTSE 100, premium bonds, etc.)
    - Actionable advice with clear calls-to-action
    - Engagement-boosting questions in captions
    - Strategic hashtags for UK personal finance community
@@ -132,7 +131,7 @@ What's one small change you could make today to start investing your spare chang
 
 ## 📜 License
 
-MIT License - feel free to modify and use for your personal finance page!
+MIT License - feel free to modify and use for your personal page!
 
 ## 💡 Next Steps
 
